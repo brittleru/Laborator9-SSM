@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Laborator 9 SSM</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="container div-imgs">
+      <img class="img-left" src="./img/logo-poli.png" alt="">
+      <img class="img-right" src="./img/logo-facultate.png" alt="">
+    </div>
+  </div>
+
+  <div class="container text-container">
+    <br>
+    <h2 class="text-col">Laboratorul 9</h2>
+    <h2 class="text-col">Interfață grafică utilizator</h2>
+    <h2 class="text-col">GUIDE</h2>
+  </div>
+
+  <div class="container stuff">
+    <div class="row">
+      <div class="container col col-md-6">
+        <div class="panel-stuff">
+          <h4 class="text-col">Simulari Mecanisme</h4>
+          <button id="button1-cent" class="centric" type="button" name="button">Mecanism Biela-Manivela Centric </button>
+          <br>
+          <button id="button2-excent" class="excentric" type="button" name="button">Mecanism Biela-Manivela Excentric</button>
+        </div>
+      </div>
+      <div class="container col col-md-6">
+        <div class="mecanism-centric">
+          <img id="img-centric" class="img-grafic" src="./img/centric.png" alt="" style="display:none;">
+        </div>
+        <div class="mecanism-excentric">
+          <img id="img-excentric" class="img-grafic" src="./img/excentric.png" alt="" style="display:none;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="container text-eu">
+      <h5 class="text-col">Mocanu Sebastian 541B</h5>
+      <h5 class="text-col">Grupa: 541B_b</h5>
+      <h5 class="text-col">Data: 29.04.2021</h5>
+    </div>
+    <button id="button-exit" class="centric" type="button" name="button">Exit</button>
+  </div>
+
+  <script type="text/javascript">
+    window.onbeforeunload = function(e) {
+      e = e || window.event;
+      if (e) {
+        e.returnValue = 'Sure?';
+      }
+      return 'Sure?';
+    };
+  </script>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
