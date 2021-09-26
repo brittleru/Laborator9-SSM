@@ -31,4 +31,4 @@ Because I’m special, I also wanted to implement this in `JavaScript`, `HTML` a
 ## Conclusion for the Matlab app
 To add the images I used `Axes`, with `CreateFcn` and I added in that function the method `imshow()` with the path of the image. I used a `Panel` for the buttons, their functionality was written in the function `callback()` and their design was done with a property inspector. The title, name, group and date were added with `Static Text`, the design was done with property inspector.
 
-You can check the site here: https://brittleru.github.io/robotics-laboratory-3/
+You can check the site here: https://brittleru.github.io/Laborator9-SSM/
